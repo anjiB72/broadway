@@ -7,8 +7,30 @@
    text-align: center;
  }
 
- #home {
-   height: auto;
-   background-image: url(resources/flatiron.jpg);
-   background-repeat: no-repeat;
- }
+/* styling for main heading with links*/
+/*background image*/
+#home {
+         background-image: url(../the-flatiron-building.png);
+   }
+
+/*heading style*/
+#home h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/*link text style*/
+#home li{
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+/*link reference styling*/
+#home a{
+  padding-top: 10px;
+  text-decoration: none;
+  display: block;
+  list-style: none;
+}
