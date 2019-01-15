@@ -21,16 +21,59 @@
 }
 
 /*link text style*/
-#home li{
+#home li, #home ul{
+  padding-top: 10px;
   color: white;
   font-size: 18px;
   text-decoration: underline;
+  display: block;
 }
 
 /*link reference styling*/
 #home a{
-  padding-top: 10px;
   text-decoration: none;
-  display: block;
   list-style: none;
 }
+
+#nypic {
+  background-image: url(../the-flatiron-building.png);
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/*sets style for div with id = process*/
+#process h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#process h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#process p{
+  font-size: 14px;
+}
+
+/* set style for footer elements*/
+footer {
+  background-color: dimgray;
+  text-align: left;
+  color: white;
+  }
+
+    footer p {
+      font-size: 11px;
+      display: inline;
+          }
+
+    footer li, footer ul {
+          text-decoration: underline;
+          display: inline;
+          color: white;
+    }
+    footer a {
+      text-decoration: none;
+    }
